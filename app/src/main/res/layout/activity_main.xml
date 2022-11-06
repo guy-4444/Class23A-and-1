@@ -16,6 +16,19 @@
         android:layout_centerInParent="true"
         app:srcCompat="@drawable/ic_launcher_background" />
 
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/main_LBL_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/main_IMG_flag"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="4dp"
+        android:textStyle="bold"
+        android:textColor="#0A2791"
+        android:text="000"
+        android:textSize="30sp"
+        />
+
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="140dp"
@@ -43,6 +56,15 @@
 
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/main_IMG_heart3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            app:srcCompat="@drawable/ic_heart"
+            android:scaleType="fitCenter"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/main_IMG_heart4"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
