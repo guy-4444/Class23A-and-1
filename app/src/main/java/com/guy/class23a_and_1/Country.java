@@ -13,35 +13,39 @@ public class Country {
         this.score = score;
     }
 
-    public int getImageRes() {
-        return imageRes;
+    public Country setImageRes(int imageRes) {
+        this.imageRes = imageRes;
+        return this;
     }
 
-    public void setImageRes(int imageRes) {
-        this.imageRes = imageRes;
+    public Country setName(String name) {
+        this.name = name;
+        return this;
+    }
+
+    public Country setNato(boolean nato) {
+        this.nato = nato;
+        return this;
+    }
+
+    public Country setScore(int score) {
+        this.score = score;
+        return this;
+    }
+
+    public int getImageRes() {
+        return imageRes;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public boolean isNato() {
         return nato;
     }
 
-    public void setNato(boolean nato) {
-        this.nato = nato;
-    }
-
     public int getScore() {
         return score;
-    }
-
-    public void setScore(int score) {
-        this.score = score;
     }
 }
