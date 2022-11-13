@@ -7,14 +7,18 @@
     android:layout_height="match_parent"
     tools:context=".Activity_Score">
 
-    <com.google.android.material.textview.MaterialTextView
-        android:id="@+id/score_LBL_score"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:textSize="50sp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:text="0000000000"/>
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/score_LBL_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="0000000000"/>
+
+
 
 </RelativeLayout>
